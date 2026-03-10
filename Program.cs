@@ -21,5 +21,7 @@ static double CalculateAverage(int[] values)
 
     return sum / values.Length;
 }
-
-//add calculateMac function here
+static double CalculateMax(int[] values)
+{
+    return 0.0;
+}

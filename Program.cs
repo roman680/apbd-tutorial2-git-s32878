@@ -12,5 +12,12 @@ static double CalculateMin(int[] values)
 
 static double CalculateAverage(int[] values)
 {
-    return 0.0;
+    double sum = 0;
+
+    for (int i = 0; i < values.Length; i++)
+    {
+        sum += values[i];
+    }
+
+    return sum / values.Length;
 }

@@ -21,3 +21,8 @@ static double CalculateAverage(int[] values)
 
     return sum / values.Length;
 }
+
+static double CalculateMax(int[] values)
+{
+    return 0.0;
+}

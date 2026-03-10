@@ -5,8 +5,6 @@ Console.BackgroundColor = ConsoleColor.Green;
 Console.ForegroundColor = ConsoleColor.Black;
 Console.WriteLine("Hello, World!");
 
-
-
 static double CalculateAverage(int[] values)
 {
     double sum = 0;

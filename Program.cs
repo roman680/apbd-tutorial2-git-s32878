@@ -7,7 +7,15 @@ Console.WriteLine("Hello, World!");
 
 static double CalculateMin(int[] values)
 {
-    return 0.0;
+    int min = values[0];
+
+    foreach (int v in values)
+    {
+        if (v < min)
+            min = v;
+    }
+
+    return min;
 }
 
 static double CalculateAverage(int[] values)

@@ -21,3 +21,5 @@ static double CalculateAverage(int[] values)
 
     return sum / values.Length;
 }
+
+//add calculateMac function here

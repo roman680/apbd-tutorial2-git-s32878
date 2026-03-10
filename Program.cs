@@ -9,3 +9,8 @@ static double CalculateMin(int[] values)
 {
     return 0.0;
 }
+
+static double CalculateAverage(int[] values)
+{
+    return 0.0;
+}

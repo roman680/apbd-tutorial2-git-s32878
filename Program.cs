@@ -30,5 +30,16 @@ static double CalculateMax(int[] values)
 
 static double CalculateMinn(int[] values)
 {
-    return 0.0;
+    if (values.Length == 0) 
+        return 0;
+
+    int min = values[0];
+
+    foreach (int v in values)
+    {
+        if (v < min)
+            min = v;
+    }
+
+    return min;
 }

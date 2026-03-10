@@ -23,3 +23,7 @@ static double CalculateAverage(int[] values)
 }
 
 //add calculateMac function here
+static double CalculateMax(int[] values)
+{
+    return 0.0;
+}

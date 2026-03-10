@@ -5,7 +5,7 @@ Console.BackgroundColor = ConsoleColor.Green;
 Console.ForegroundColor = ConsoleColor.Black;
 Console.WriteLine("Hello, World!");
 
-static double CalculateMin(int[] values)
+static double CalculateMin(int[] values) //deprecated
 {
     return 0.0;
 }

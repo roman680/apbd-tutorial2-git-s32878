@@ -27,3 +27,8 @@ static double CalculateMax(int[] values)
 {
     return 0.0;
 }
+
+static double CalculateMinn(int[] values)
+{
+    return 0.0;
+}
